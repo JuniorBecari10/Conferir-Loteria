@@ -75,11 +75,21 @@ span {
     margin: 0 10px;
 }
 
-textarea {
+.input-large textarea {
     resize: none;
     
+    margin-top: 5px;
     padding: 5px;
     
     width: 657px;
     height: 350px;
+}
+
+.input-large button {
+    margin-top: 5px;
+    padding: 10px;
+    
+    width: 657px;
+    
+    text-align: center;
 }
