@@ -8,7 +8,11 @@
 }
 
 h1 {
-    font-size: 20pt;
+    font-size: 14pt; /* 20 */
+    
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    
 }
 
 header {
@@ -16,4 +20,66 @@ header {
     
     border-bottom: 1px solid black;
     box-shadow: 0 2px 5px rgba(0,0,0,50%);
+}
+
+.input-box {
+    width: 320px;
+    text-align: left;
+}
+
+section {
+    width: 50%;
+}
+
+p {
+    display: block;
+    text-align: left;
+    
+    margin: 5px;
+}
+
+.input-group {
+    display: inline-block;
+    width: 320px; /* 250 */
+    
+    margin: 5px;
+}
+
+span {
+    text-transform: uppercase;
+    font-size: 8pt;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    
+    position: relative;
+    
+    bottom: 1px;
+}
+
+.disabled * {
+    color: gray;
+    background-color: light-gray;
+    pointer-events: none;
+}
+
+.input-large {
+    text-align: left;
+    margin-top: 10px;
+    
+    width: 320px; /* 255 */
+}
+
+.input-large * {
+    text-align: left;
+    
+    margin: 0 10px;
+}
+
+textarea {
+    resize: none;
+    
+    padding: 5px;
+    
+    width: 657px;
+    height: 350px;
 }

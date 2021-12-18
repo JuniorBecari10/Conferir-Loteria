@@ -13,17 +13,87 @@
         </header>
         
         <section id="input">
-            <select name="loteria">
-                <option value="mega-sena">Mega-Sena</option>
-                <option value="lotofacil">Lotofácil</option>
-                <option value="quina">Quina</option>
-                <option value="lotomania">Lotomania</option>
-                <option value="timemania">Timemania</option>
-                <option value="dupla-sena">Dupla-Sena</option>
-                <option value="loteria-federal">Loteria Federal</option>
-                <option value="dia-de-sorte">Dia de Sorte</option>
-                <option value="super-sete">Super Sete</option>
-            </select>
+            <div class="input-group">
+                <p>Loteria</p>
+                
+                <select name="loteria" class="input-box">
+                    <option value="mega-sena">Mega-Sena</option>
+                    <option value="lotofacil">Lotofácil</option>
+                    <option value="quina">Quina</option>
+                    <option value="lotomania">Lotomania</option>
+                    <option value="timemania">Timemania</option>
+                    <option value="dupla-sena">Dupla Sena</option>
+                    <option value="loteria-federal">Loteria Federal</option>
+                    <option value="dia-de-sorte">Dia de Sorte</option>
+                    <option value="super-sete">Super Sete</option>
+                </select>
+            </div>
+            
+            <div class="input-group">
+                <p>Concurso</p>
+                
+                <input type="text" class="input-box" placeholder="Deixe em branco para ver o último">
+            </div>
+            
+            <div class="input-group mes-sorte">
+                <p><span>Dia de Sorte</span> Mês da Sorte</p>
+                
+                <select name="mes-da-sorte disabled" class="input-box">
+                    <option value="janeiro">Janeiro</option>
+                    <option value="fevereiro">Fevereiro</option>
+                    <option value="marco">Março</option>
+                    <option value="abril">Abril</option>
+                    <option value="maio">Maio</option>
+                    <option value="junho">Junho</option>
+                    <option value="julho">Julho</option>
+                    <option value="agosto">Agosto</option>
+                    <option value="setembro">Setembro</option>
+                    <option value="outubro">Outubro</option>
+                    <option value="novembro">Novembro</option>
+                    <option value="dezembro">Dezembro</option>
+                </select>
+            </div>
+            
+            <div class="input-group time-coracao">
+                <p><span>Timemania</span> Time do Coração</p>
+                
+                <input type="text" class="input-box">
+            </div>
+            
+            <div class="input-large">
+                <p>Dezenas</p>
+                
+                <textarea id="dezenas" placeholder="Coloque aqui suas dezenas que você apostou, uma por linha, e cada número separado por um espaço.
+
+
+
+Exemplo:
+
+
+
+06 11 34 47 49 52
+
+01 10 16 19 22 39
+
+
+
+Obs: Se você selecionar Loteria Federal, você deve colocar aqui a combinação do bilhete que você comprou. Mas coloque na ordem correta! O 1º Prêmio você deve colocar primeiro e o 5º Prêmio o último.
+
+
+
+Exemplo:
+
+
+
+754
+
+8146
+
+19
+                "></textarea>
+            </div>
         </section>
+        
+        <script src="script.js"></script>
     </body>
 </html>
