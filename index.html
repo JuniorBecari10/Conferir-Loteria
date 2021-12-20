@@ -32,7 +32,7 @@
             <div class="input-group">
                 <p>Concurso</p>
                 
-                <input type="text" class="input-box" placeholder="Deixe em branco para ver o último">
+                <input type="number" class="input-box" id="concurso-box" placeholder="Deixe em branco para ver o último">
             </div>
             
             <div class="input-group mes-sorte">
@@ -54,7 +54,7 @@
                 </select>
             </div>
             
-            <div class="input-group time-coracao">
+            <div class="input-group time-coracao disabled">
                 <p><span>Timemania</span> Time do Coração</p>
                 
                 <input type="text" class="input-box">
@@ -65,35 +65,26 @@
                 
                 <textarea id="dezenas" placeholder="Coloque aqui suas dezenas que você apostou, uma por linha, e cada número separado por um espaço.
 
-
-
 Exemplo:
-
-
 
 06 11 34 47 49 52
-
 01 10 16 19 22 39
 
-
-
-Obs: Se você selecionar Loteria Federal, você deve colocar aqui a combinação do bilhete que você comprou. Mas coloque na ordem correta! O 1º Prêmio você deve colocar primeiro e o 5º Prêmio o último.
-
-
+Obs.: Se você selecionar Loteria Federal, você deve colocar aqui a combinação do bilhete que você comprou. Mas coloque na ordem correta! O 1º Prêmio você deve colocar primeiro e o 5º Prêmio o último.
 
 Exemplo:
 
-
-
 754
-
 8146
-
 19
                 "></textarea>
                 
                 <button>Conferir!</button>
             </div>
+        </section>
+        
+        <section id="results">
+            
         </section>
         
         <script src="script.js"></script>
